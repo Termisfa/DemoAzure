@@ -3,10 +3,10 @@
 header("Access-Control-Allow-Origin: *");
 
 
-$hostname = '';
-$database = '';
-$username = '';
-$password = '';
+$hostname = 'trabajofctazure.mysql.database.azure.com';
+$database = 'Peluqueria';
+$username = 'sergio@trabajofctazure';
+$password = 'Passwo123';
 
 //establecer la conexion con la BBDD
 $conexion = new mysqli($hostname, $username, $password, $database);
